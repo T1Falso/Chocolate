@@ -40,7 +40,7 @@
       text-decoration: underline;
     }
     .hero {
-      background-image: url('https://images.unsplash.com/photo-1589308078050-aa03b47f2371');
+      background: url('https://www.almendras.mx/sites/default/files/2020-04/Shot_1_Almonds_chocolate.jpeg');
       background-size: cover;
       background-position: center;
       height: 400px;
@@ -50,6 +50,13 @@
       color: white;
       font-size: 2.5rem;
       text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      background-size: 100%;              
+      background-position: center;        
+      transition: background-size 0.6s ease-out;   
+      overflow: hidden;                   
+    }
+    .hero:hover{
+      background-size: 110%;             
     }
     section {
       padding: 2rem;
