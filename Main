@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chocolatería El Rey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff8f2;
+      color: #3e2723;
+    }
+    header {
+      background-color: #5D4037;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-family: 'Playfair Display', serif;
+    }
+    nav {
+      background-color: #8D6E63;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1589308078050-aa03b47f2371');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    section {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .productos {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .producto {
+      background-color: #fff3e0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 250px;
+      text-align: center;
+    }
+    .producto img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #5D4037;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 2rem;
+    }
+    .social-icons img {
+      width: 32px;
+      margin: 0 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chocolatería El Rey</h1>
+    <p>Más de 25 años de tradición artesanal desde Cojutepeque</p>
+  </header>
+  <nav>
+    <a href="#tienda">Tienda</a>
+    <a href="#historia">Historia</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <div class="hero">
+    <span>Chocolate que enamora</span>
+  </div>
+
+  <section id="historia">
+    <h2>Nuestra Historia</h2>
+    <p>
+      Nacida en el corazón de Cojutepeque, Chocolatería El Rey ha deleitado a sus clientes con chocolates artesanales de alta calidad por más de 25 años. Con recetas tradicionales transmitidas de generación en generación, nuestra pasión es llevar dulzura a cada rincón del país.
+    </p>
+  </section>
+
+  <section id="tienda">
+    <h2>Tienda en Línea</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1618257015095-14aa15797c74" alt="Chocolate artesanal">
+        <h3>Chocolate Oscuro</h3>
+        <p>$3.50</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1606312619340-56a3935c1c0f" alt="Tableta de chocolate">
+        <h3>Tableta Tradicional</h3>
+        <p>$2.50</p>
+        <button>Agregar al carrito</button>
+      </div>
+      <!-- Puedes agregar más productos aquí -->
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>Síguenos en nuestras redes sociales:</p>
+    <div class="social-icons">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chocolatería El Rey. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
