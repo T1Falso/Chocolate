@@ -40,7 +40,7 @@
       text-decoration: underline;
     }
     .hero {
-      background: url('https://www.almendras.mx/sites/default/files/2020-04/Shot_1_Almonds_chocolate.jpeg');
+      background: url('imagenes/choco.png');
       background-size: cover;
       background-position: center;
       height: 400px;
@@ -97,7 +97,7 @@
 </head>
 <body>
   <header>
-    <h1>Chocolatería El Rey</h1>
+    <h1>La Casa del Chocolate Beyaco</h1>
     <p>Más de 25 años de tradición artesanal desde Cojutepeque</p>
   </header>
   <nav>
@@ -112,7 +112,7 @@
   <section id="historia">
     <h2>Nuestra Historia</h2>
     <p>
-      Nacida en el corazón de Cojutepeque, Chocolatería El Rey ha deleitado a sus clientes con chocolates artesanales de alta calidad por más de 25 años. Con recetas tradicionales transmitidas de generación en generación, nuestra pasión es llevar dulzura a cada rincón del país.
+      Nacida en el corazón de Cojutepeque, CLa Casa del Chocolate Beyaco ha deleitado a sus clientes con chocolates artesanales de alta calidad por más de 25 años. Con recetas tradicionales transmitidas de generación en generación, nuestra pasión es llevar dulzura a cada rincón del país.
     </p>
   </section>
 
@@ -120,13 +120,13 @@
     <h2>Tienda en Línea</h2>
     <div class="productos">
       <div class="producto">
-        <img src="https://images.unsplash.com/photo-1618257015095-14aa15797c74" alt="Chocolate artesanal">
+        <img src="Imagenes/choco 2.png" alt="Chocolate artesanal">
         <h3>Chocolate Oscuro</h3>
         <p>$3.50</p>
         <button>Agregar al carrito</button>
       </div>
       <div class="producto">
-        <img src="https://images.unsplash.com/photo-1606312619340-56a3935c1c0f" alt="Tableta de chocolate">
+        <img src="Imagenes/choco 3.png" alt="Tableta de chocolate">
         <h3>Tableta Tradicional</h3>
         <p>$2.50</p>
         <button>Agregar al carrito</button>
@@ -145,7 +145,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2025 Chocolatería El Rey. Todos los derechos reservados.</p>
+    <p>&copy; 2025 La Casa del Chocolate Beyaco. Todos los derechos reservados.</p>
   </footer>
 </body>
 </html>
